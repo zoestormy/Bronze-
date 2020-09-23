@@ -1,0 +1,20 @@
+
+The increment operator has two forms, prefix and postfix.
+++x; // prefix
+x++; // postfix
+
+Prefix increments the value, and then proceeds with the expression.
+Postfix evaluates the expression and then performs the incrementing.
+
+Prefix example:
+x = 5;
+y = ++x;
+// x is 6, y is 6
+
+Postfix example:
+x = 5;
+y = x++;
+// x is 6, y is 5
+
+The prefix example increments the value of x, and then assigns it to y.
+The postfix example assigns the value of x to y, and then increments it.
